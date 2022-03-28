@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dohoa.myFavoriteController">
+   <children>
+      <ImageView fitHeight="708.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nen1.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="favoriteTable" layoutX="79.0" layoutY="334.0" prefHeight="198.0" prefWidth="710.0">
+        <columns>
+          <TableColumn fx:id="targetFav" prefWidth="123.9999942779541" text="Vocabulary" />
+          <TableColumn fx:id="speechFav" prefWidth="103.19998168945312" text="Part of speech" />
+            <TableColumn fx:id="pronunFav" minWidth="7.20001220703125" prefWidth="112.800048828125" text="Pronunciation" />
+            <TableColumn fx:id="explainVnFav" prefWidth="154.40005493164062" text="Vietnamese meaning" />
+            <TableColumn fx:id="explainEnFav" prefWidth="175.20001220703125" text="English meaning" />
+        </columns>
+      </TableView>
+      <Button layoutX="735.0" layoutY="541.0" mnemonicParsing="false" onAction="#goBack" prefHeight="45.0" prefWidth="45.0" style="-fx-background-radius: 30;" />
+      <Button fx:id="removeButton" layoutX="813.0" layoutY="444.0" mnemonicParsing="false" onAction="#removeFavWord" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #2AC1FF;" />
+      <Button layoutX="813.0" layoutY="374.0" mnemonicParsing="false" onAction="#detail" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #2AC1FF;" />
+      <Button layoutX="806.0" layoutY="544.0" mnemonicParsing="false" onAction="#exitBut" prefHeight="39.0" prefWidth="42.0" style="-fx-background-radius: 30;" />
+      <ImageView disable="true" fitHeight="45.0" fitWidth="45.0" layoutX="804.0" layoutY="541.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@exit.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="45.0" fitWidth="45.0" layoutX="735.0" layoutY="541.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back-arrow-icon-special-red-round-button-back-arrow-icon-isolated-special-red-round-button-abstract-illustration-102221714.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="664.0" layoutY="541.0" mnemonicParsing="false" onAction="#goIntro" prefHeight="45.0" prefWidth="45.0" style="-fx-background-radius: 30;" />
+      <ImageView disable="true" fitHeight="45.0" fitWidth="45.0" layoutX="664.0" layoutY="541.0" onDragDetected="#goIntro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@homeFav.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="292.0" fitWidth="512.0" layoutX="327.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nenmean.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="206.0" fitWidth="276.0" layoutX="38.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@favTitle.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="41.0" fitWidth="41.0" layoutX="818.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@detail.jpg" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="50.0" fitWidth="50.0" layoutX="815.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@remove.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="121.0" layoutX="342.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@titlemean.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="detailWord" layoutX="362.0" layoutY="101.0" prefHeight="190.0" prefWidth="442.0" wrapText="true">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>

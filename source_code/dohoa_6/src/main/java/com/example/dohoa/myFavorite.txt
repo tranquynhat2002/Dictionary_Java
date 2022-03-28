@@ -1,0 +1,12 @@
+blue	adjective	/bluː/	xanh dương	having the colour of a clear sky or the sea on a clear day	Ex: piercing blue eyes
+book	noun	/bʊk/	sách	a set of printed pages that are fastened inside a cover so that you can turn them and read them	Ex: His desk was covered with piles of books.
+both	determiner, pronoun	/bəʊθ/	cả hai	used with plural nouns to mean ‘the two’ or ‘the one as well as the other’	Ex: Both women were French.
+dream	noun	/driːm/	mơ	a series of images, events and feelings that happen in your mind while you are asleep	Ex: I had a really weird dream last night.
+easy	adjective	/ˈiːzi/	dễ	not difficult; done or obtained without a lot of effort or problems	Ex: an easy way to make bread
+electric	adjective	/ɪˈlektrɪk/	(thuộc về) điện	connected with electricity; using, produced by or producing electricity	Ex: an electric car/vehicle
+hope	verb	/həʊp/	hy vọng	to want something to happen and think that it is possible	Ex: All we can do now is wait and hope.
+horse	noun	/hɔːrs/	ngựa	a large animal with four legs, a mane (= long thick hair on its neck) and a tail. Horses are used for riding on, pulling carriages, etc.	Ex: to ride a horse
+idea	noun	/aɪˈdiːə/	ý tưởng	a plan, thought or suggestion, especially about what to do in a particular situation	Ex: It would be a good idea to call before we leave.
+another	determiner, pronoun	/əˈnʌðər/	một...khác	one more; an extra thing or person	Ex: Would you like another drink?
+duck	noun	/dʌk/	vịt	a common bird that lives on or near water and has short legs, webbed feet (= feet with thin pieces of skin between the toes) and a wide beak. There are many types of duck, some of which are kept for their meat or eggs.	Ex: duck eggs
+for	preposition	/fɔːr/	cho	used to show who is intended to have or use something or where something is intended to be put	Ex: There's a letter for you.
